@@ -12,3 +12,5 @@ str2++;
 }
 *str1 = '\0';
 }
+int main() {
+char str1[50] = "Hello";
