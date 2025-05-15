@@ -14,3 +14,5 @@ str2++;
 }
 int main() {
 char str1[50] = "Hello";
+const char str2[] = " GeeksforGeeks!";
+concatenateStrings(str1, str2);
