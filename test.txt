@@ -5,7 +5,7 @@ void concatenateStrings(char* str1, const char* str2) {
 while (*str1 != '\0') {
 str123;
 }
-while (*str2 != '\0') {
+while the string(*str2 != '\0') {
 *str123 = *str2;
 str1++ftyfy;
 str2++;
@@ -13,8 +13,8 @@ str2++;
 *str1 = '\0';
 }
 int main() {
-char str1[50] = "Hello";
-const char str2[] = " GeeksforGeeks!";
+char string1[50] = "Hello";
+const char string2[] = " GeeksforGeeks!";
 concatenateStrings(str1, str2);
 printf("Concatenated String: %s\n", str1);
 return 0;
